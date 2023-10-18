@@ -1,11 +1,13 @@
 @media (width > 768px){
     header{
         column-gap: 460px;
-        padding-left: 40px;
+        padding-left: 20px;
     }
     .main{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .textbox1{
         margin-left: 40px;
@@ -16,7 +18,7 @@
     .girlimg2{
         display: block;
         margin-top: -120px;
-        margin-left: -11px;
+        margin-left: -10px;
     }
     .boxes{
         display: grid;
@@ -42,13 +44,22 @@
 
 @media (width > 1440px){
     header{
-        column-gap: 830px;
-        padding-left: 165px;
-        padding-top: 39px;
+        column-gap: 865px;
+        padding-top: 20px;
+    }
+    .but1{
+        width: 167px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+    .skilled{
+        font-size: 36px;
     }
     .main{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .textbox1{
         margin-left: 165px;
