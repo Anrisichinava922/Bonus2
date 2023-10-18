@@ -42,6 +42,9 @@ h1{
     font-weight: 700;
     line-height: 28px;
 }
+.but1:hover{
+    background-color: #666CA3;
+}
 .textbox1{
     display: flex;
     flex-direction: column;
@@ -79,6 +82,10 @@ h3{
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
+}
+.but2:hover{
+    background: var(--Gradient-1-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+
 }
 .girlimg2{
     display: none;
@@ -178,4 +185,8 @@ footer{
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
+}
+.but3:hover{
+    background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
+
 }
