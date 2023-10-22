@@ -160,6 +160,7 @@ p{
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 0 16px;
     column-gap: 114px;
     height: 120px;
